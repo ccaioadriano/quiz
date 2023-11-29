@@ -1,9 +1,13 @@
-import { useState } from 'react';
-
-import './App.css';
+import "./App.css";
+import Welcome from "./components/welcome/Welcome";
 
 function App() {
-  return <>Ola Mundo</>;
+  return (
+    <div className="App">
+      <h1>Quiz de programação</h1>
+      <Welcome />
+    </div>
+  );
 }
 
 export default App;
